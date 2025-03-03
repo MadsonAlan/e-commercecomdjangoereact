@@ -1,2 +1,2 @@
-# e-commercecomdjangoereact
-uma Loja online em Python Django e React completo
+# DJANGO_REACT
+ARQUIVOS DO PROJETO DJANGO_BACKEND E REACT_FRONTEND
