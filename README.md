@@ -37,7 +37,7 @@ Este projeto é uma loja online completa, desenvolvida com Python Django no back
 3.  Instale as dependências:
 
     ```bash
-    pip install -r requirements.txt
+    pip install -r requirements.txt django djangorestframework django-cors-headers djangorestframework-simplejwt Pillow whitenoise psycopg2-binary
     ```
 
 4.  Configure o banco de dados:
