@@ -26,7 +26,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     container_name: backend_django
-    command: ./backend/wait-for-it.sh sh -c "python ./backend/manage.py migrate && python ./backend/manage.py runserver 0.0.0.0:8000"
+    command: ./backend/wait-for-it.sh sh -c "python ./backend/manage.py migrate && python ./backend/manage.py seed_data && python ./backend/manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/code
     ports:

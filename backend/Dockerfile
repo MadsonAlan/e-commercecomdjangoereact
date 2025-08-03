@@ -20,7 +20,7 @@ RUN apt-get update && \
 COPY requirements.txt .
 
 # Instala as dependências Python
-RUN pip install --upgrade pip && pip install -r requirements.txt django djangorestframework django-cors-headers djangorestframework-simplejwt Pillow whitenoise psycopg2-binary
+RUN pip install --upgrade pip && pip install -r requirements.txt django djangorestframework django-cors-headers djangorestframework-simplejwt Pillow whitenoise psycopg2-binary Faker
 
 
 # Copia o restante do projeto para o container
